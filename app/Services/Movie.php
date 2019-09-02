@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\DB;
 
 class Movie
 {
-    private static $table_name = '';
+    public static $table_name = 'movies';
 
     private static function db()
     {
